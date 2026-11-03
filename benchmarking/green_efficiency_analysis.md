@@ -6,7 +6,7 @@ In Task 0, I ran the program three times. I recorded the execution time for ever
 
 In Task 1, I tested two algorithms called Naive and Single-pass. I ran the program three times and recorded the results. Then I calculated the average time for each algorithm.
 
-In Task 2, I added [clock()] to the program to measure CPU time. I measured the time for building the data, processing the data, and calculating the final value. I also measured the total time.
+In Task 2, I added `clock()` to the program to measure CPU time. I measured the time for building the data, processing the data, and calculating the final value. I also measured the total time.
 
 ## Observed Performance Differences
 
@@ -74,7 +74,7 @@ In Task 1, the two algorithms returned different values, so the comparison is ma
 
 This project helped me understand how to measure the performance of C programs.
 
-I learned how to use GCC and [clock()].
+I learned how to use GCC and `clock()`.
 
 I also learned that running a program more than once is important because execution time can change.
 
