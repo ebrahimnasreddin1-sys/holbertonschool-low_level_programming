@@ -77,11 +77,7 @@ This project helped me understand how to measure the performance of C programs.
 I learned how to use GCC and `clock()`.
 
 I also learned that running a program more than once is important because execution time can change.
-
 Task 1 showed me that the way a program works can make a big difference in execution time.
-
 I learned that I should use real measurements when comparing programs.
-
 I also understand that a faster program does not automatically mean lower electricity use.
-
 In the future, I will try to measure my programs before deciding which solution is more efficient.
