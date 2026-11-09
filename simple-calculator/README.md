@@ -1,8 +1,8 @@
-#Run
+##Run
 
 `./calculator`
 
-#Menu
+##Menu
 
 1. Add
 
