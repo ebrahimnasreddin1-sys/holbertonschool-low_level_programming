@@ -47,6 +47,17 @@ int main(void)
 
             printf("Result: %d\n", a + b);
         }
+
+        if (number == 2)
+        {
+            printf("A: ");
+            scanf("%d", &a);
+
+            printf("B: ");
+            scanf("%d", &b);
+
+            printf("Result: %d\n", a - b);
+        }
     }
 
     return (0);
