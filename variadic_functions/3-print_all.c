@@ -43,30 +43,31 @@ void print_all(const char * const format, ...)
 	{
 		switch (format[i])
 		{
-			case 'c':
-				print_separator(count);
-				printf("%c", va_arg(args, int));
-				count++;
-				break;
-			case 'i':
-				print_separator(count);
-				printf("%d", va_arg(args, int));
-				count++;
-				break;
-			case 'f':
-				print_separator(count);
-				printf("%f", va_arg(args, double));
-				count++;
-				break;
-			case 's':
-				print_separator(count);
-				str = va_arg(args, char *);
-				print_string(str);
-				count++;
-				break;
+		case 'c':
+			print_separator(count);
+			printf("%c", va_arg(args, int));
+			count++;
+			break;
+		case 'i':
+			print_separator(count);
+			printf("%d", va_arg(args, int));
+			count++;
+			break;
+		case 'f':
+			print_separator(count);
+			printf("%f", va_arg(args, double));
+			count++;
+			break;
+		case 's':
+			print_separator(count);
+			str = va_arg(args, char *);
+			print_string(str);
+			count++;
+			break;
 		}
 		i++;
 	}
+
 	va_end(args);
 	printf("\n");
 }
