@@ -3,8 +3,8 @@
 #include "variadic_functions.h"
 
 /**
- * print_separator - prints a separator
- * @count: number of printed arguments
+ * print_separator - prints separator
+ * @count: number of arguments printed
  */
 void print_separator(int count)
 {
@@ -19,9 +19,11 @@ void print_separator(int count)
 void print_string(char *str)
 {
 	if (str == NULL)
+	{
 		printf("(nil)");
-	else
-		printf("%s", str);
+		return;
+	}
+	printf("%s", str);
 }
 
 /**
@@ -35,11 +37,11 @@ void print_all(const char * const format, ...)
 	int count;
 	char *str;
 
-	count = 0;
 	i = 0;
+	count = 0;
 	va_start(args, format);
 
-	while (format[i] != '\0')
+	while (format != NULL && format[i] != '\0')
 	{
 		switch (format[i])
 		{
